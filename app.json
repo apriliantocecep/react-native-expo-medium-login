@@ -1,11 +1,12 @@
 {
   "expo": {
     "name": "react-native-expo-medium-login",
-    "description": "This project is really great.",
+    "description": "Ract Native EXPO Medium Library.",
     "slug": "react-native-expo-medium-login",
     "privacy": "public",
     "sdkVersion": "28.0.0",
     "platforms": ["ios", "android"],
+    "githubUrl": "https://github.com/apriliantocecep/react-native-expo-medium-login/tree/master",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
