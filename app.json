@@ -3,9 +3,13 @@
     "name": "react-native-expo-medium-login",
     "description": "Ract Native EXPO Medium Library.",
     "slug": "react-native-expo-medium-login",
+    "scheme": "mediumlogin",
     "privacy": "public",
     "sdkVersion": "28.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "githubUrl": "https://github.com/apriliantocecep/react-native-expo-medium-login/tree/master",
     "version": "1.0.0",
     "orientation": "portrait",
