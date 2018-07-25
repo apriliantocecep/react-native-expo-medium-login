@@ -2,15 +2,13 @@ import React from 'react';
 import { AuthSession } from "expo";
 import { StyleSheet, Text, View, Button } from 'react-native';
 
-// import Medium  from "./src";
+import mediumLibrary from "medium-library";
 
 export default class App extends React.Component {
 
   handlePress = async () => {
 
-    var m = require('./src')
-
-    let medium = new m.Medium({
+    let medium = new mediumLibrary.Medium({
       client_id: '70eaa8fd5369',
       client_secret: 'f3c21130d72eafc0046dd8506051fdbc2b9e3b1f'
     });
@@ -29,7 +27,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Button 
+        <Button
           title="Login with Medium"
           onPress={this.handlePress}
         />
